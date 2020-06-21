@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="MidTermAnswer.css">
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Image Grid</h1>
+</div>
+
+<!-- Photo Grid -->
+<div id="time">Time:
+    <span id="timeDisplay">00:00</span>
+</div>
+<div id="move">Moves:
+    <span id="moveCounter">0</span>
+</div>
+<div id="Rank">Previous Record:
+    <span id="rankDisplay">(No Records)</span>
+    <span id="rankTime"></span>
+    <span id="rankMove"></span>
+</div>
+<div class="row" align="center">
+    <div class="column">
+        
+            <img id="img1" onclick="findMatch(1)" src="clickme.jpeg">
+        
+        
+            <img id="img2" onclick="findMatch(2)" src="clickme.jpeg">
+     
+        
+            <img id="img3" onclick="findMatch(3)" src="clickme.jpeg">
+     
+        
+            <img id="img4" onclick="findMatch(4)" src="clickme.jpeg">
+    
+
+    </div>
+    <div class="column">
+        
+            <img id="img5" onclick="findMatch(5)" src="clickme.jpeg">
+  
+        
+            <img id="img6" onclick="findMatch(6)" src="clickme.jpeg">
+
+        
+            <img id="img7" onclick="findMatch(7)" src="clickme.jpeg">
+
+        
+            <img id="img8" onclick="findMatch(8)" src="clickme.jpeg">
+
+    </div>
+    <div class="column">
+        
+            <img id="img9" onclick="findMatch(9)" src="clickme.jpeg">
+
+        
+            <img id="img10" onclick="findMatch(10)" src="clickme.jpeg">
+
+        
+            <img id="img11" onclick="findMatch(11)" src="clickme.jpeg">
+
+        
+            <img id="img12" onclick="findMatch(12)" src="clickme.jpeg">
+
+    </div>
+</div>
+<div class="header">
+    <h1 id="match" hidden>MATCH</h1>
+    <h1 id="notmatch" hidden>NOT MATCH</h1>
+    <h1 id="gameover" hidden>GAME OVER</h1>
+
+</div>
+
+<script src="MidTermAnswer.js"></script>
+
+</body>
+</html>
